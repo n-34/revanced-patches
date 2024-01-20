@@ -1,3 +1,48 @@
+# [4.0.0](https://github.com/n-34/revanced-patches/compare/v3.1.0...v4.0.0) (2024-01-20)
+
+
+### Bug Fixes
+
+* **Spoof SIM country:** Validate patch option value correctly ([8105463](https://github.com/n-34/revanced-patches/commit/81054637915a5399d15f546b2290b5d939e15732))
+* **Tiktok - Remember clear display:** Use correct name ([d7e44cb](https://github.com/n-34/revanced-patches/commit/d7e44cb887396bba27ee81c70c006f0cc247c56d))
+* Use new integrations patch path ([51e2f3b](https://github.com/n-34/revanced-patches/commit/51e2f3b476b49460e2f3fc2b5f302a3a72d7963f))
+* **YouTube - Alternative thumbnails:** Clarify DeArrow support is for thumbnails ([#2531](https://github.com/n-34/revanced-patches/issues/2531)) ([828abb0](https://github.com/n-34/revanced-patches/commit/828abb0558926cd6557c79abcf1a04bfe2c719e6))
+* **YouTube - Change header:** Improve patch descriptions ([#2581](https://github.com/n-34/revanced-patches/issues/2581)) ([43a5677](https://github.com/n-34/revanced-patches/commit/43a5677397380f14a049ae95532fd5096b94c938))
+* **YouTube - Enable slide to seek:** Change patch default to excluded and add description disclaimer ([#2610](https://github.com/n-34/revanced-patches/issues/2610)) ([2fdc4c2](https://github.com/n-34/revanced-patches/commit/2fdc4c23b5f39153ad71071359274c39129d691f))
+* **YouTube - SponsorBlock:** Export local statistics with saved settings ([f8365b4](https://github.com/n-34/revanced-patches/commit/f8365b4e3585328506887022ac6168045ac110b9))
+* **YouTube:** Fix grammer mistakes in patch descriptions ([#2543](https://github.com/n-34/revanced-patches/issues/2543)) ([ebf5993](https://github.com/n-34/revanced-patches/commit/ebf599349c508067a28526267d82030b679df045))
+* **YouTube:** Shorten setting titles to fit on screen ([#2579](https://github.com/n-34/revanced-patches/issues/2579)) ([b2a5dd3](https://github.com/n-34/revanced-patches/commit/b2a5dd3efc39ae8a42159858b9c00b5b2f8655a4))
+
+
+### Code Refactoring
+
+* Fix package and code structure ([#2541](https://github.com/n-34/revanced-patches/issues/2541)) ([a08457e](https://github.com/n-34/revanced-patches/commit/a08457e406f4b2e37458a4835c11d370a02d2ce6))
+
+
+### Features
+
+* **Change package name:** Mention caveat of the patch in the description ([427b81a](https://github.com/n-34/revanced-patches/commit/427b81a79a5a1de79f14d2261059fb098b22227f))
+* **ID Austria:** Remove constraint on any version ([#2526](https://github.com/n-34/revanced-patches/issues/2526)) ([de2cb88](https://github.com/n-34/revanced-patches/commit/de2cb886169b3963b9ed70154bde0b7c6baaae40))
+* **MyFitnessPal:** Add `Hide ads` patch ([#2594](https://github.com/n-34/revanced-patches/issues/2594)) ([fd4b3c7](https://github.com/n-34/revanced-patches/commit/fd4b3c79a83f8de6256611629263d3e29e66f2c2))
+* **Public API:** Deprecate `HideEmailAddressPatch` ([866bceb](https://github.com/n-34/revanced-patches/commit/866bcebdd990b964d3dfd5aea792e7fffaedbf44))
+* **Public API:** Make `BottomControlsResource#addControls` public ([#2514](https://github.com/n-34/revanced-patches/issues/2514)) ([f4e2257](https://github.com/n-34/revanced-patches/commit/f4e2257072ca02003f7c272d6c0c8ef1aa6032ae))
+* **Tiktok - Playback speed:** Remember playback speed ([#2506](https://github.com/n-34/revanced-patches/issues/2506)) ([d2970e5](https://github.com/n-34/revanced-patches/commit/d2970e54fbbd7e4b1ae1d354ae2d5c4bbe9336b0))
+* **Tiktok:** Add `Remember clear mode` patch ([#2509](https://github.com/n-34/revanced-patches/issues/2509)) ([048bf59](https://github.com/n-34/revanced-patches/commit/048bf592ef93ee5138aa1886be1644501f88964a))
+* **YouTube - Change header:** Change to ReVanced borderless logo header by default ([#2512](https://github.com/n-34/revanced-patches/issues/2512)) ([75f785d](https://github.com/n-34/revanced-patches/commit/75f785d1ef6026cbbdf7073c10aace1b28d93a30))
+* **YouTube - Hide ads:** Hide fullscreen ads ([bdc9a12](https://github.com/n-34/revanced-patches/commit/bdc9a129eff3a5051b8b37665b3243a8b61cbbac))
+* **YouTube - Hide layout components:** Hide search result recommendations ([55cc7f1](https://github.com/n-34/revanced-patches/commit/55cc7f1c7722f56af6d33ea2bd09a1b99d635209))
+* **YouTube - Theme:** Add classic dark color to presets ([#2542](https://github.com/n-34/revanced-patches/issues/2542)) ([4e1dc00](https://github.com/n-34/revanced-patches/commit/4e1dc0041d6693fba08e78514787407f933a6e41))
+* **YouTube:** Add `Remove viewer discretion dialog` patch ([a07f83f](https://github.com/n-34/revanced-patches/commit/a07f83fe89ce577fc8bd904eacad5383a639b09b))
+* **YouTube:** Improve patch descriptions ([#2519](https://github.com/n-34/revanced-patches/issues/2519)) ([e8d1389](https://github.com/n-34/revanced-patches/commit/e8d1389d3367b2fb688f0b85c136c512981b4fdc))
+* **YouTube:** Remove `Hide email address` patch ([3b84305](https://github.com/n-34/revanced-patches/commit/3b84305a6b97800cb147f86c642f19689548aca5))
+* **YouTube:** Support version `19.02.34` ([#2627](https://github.com/n-34/revanced-patches/issues/2627)) ([94e08b7](https://github.com/n-34/revanced-patches/commit/94e08b74ced394abf9ae7d4fe6355bfe4d0be248))
+* **YouTube:** Support versions `18.48.39`, `18.49.37` and `19.01.34` ([#2551](https://github.com/n-34/revanced-patches/issues/2551)) ([a938e73](https://github.com/n-34/revanced-patches/commit/a938e736fa2aed1792cfdce5656efa15d0791d71))
+
+
+### BREAKING CHANGES
+
+* Various public APIs have changed names and packages or were removed entirely
+
 # [4.0.0-dev.11](https://github.com/ReVanced/revanced-patches/compare/v4.0.0-dev.10...v4.0.0-dev.11) (2024-01-17)
 
 
